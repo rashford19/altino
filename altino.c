@@ -15,14 +15,14 @@ int main() {
 
 		if (sdata.IRSensor[3]>20) {
 
-
-			Steering(1);
+                        
+			Steering(1); //전진
 			Go(300, 300);
 			delay(50);
 
 			if (sdata.IRSensor[2]>20) {
-
-				Steering(1);
+                       
+				Steering(1); //전진
 				Go(300, 300);
 				delay(300);
 
@@ -52,7 +52,7 @@ int main() {
 
 			if (sdata.IRSensor[2]>20) {
 
-				Steering(1);
+				Steering(1); //
 				Go(300, 300);
 				delay(300);
 
